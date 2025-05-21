@@ -50,3 +50,740 @@
         }
     </style>
 </head>
+<body class="font-sans antialiased text-gray-800">
+    <!-- Header/Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-compress-arrows-alt text-blue-600 text-3xl mr-3"></i>
+                <h1 class="text-2xl font-bold text-gray-800">Pneumax<span class="text-blue-600">Solutions</span></h1>
+            </div>
+            
+            <nav class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link font-medium text-gray-700 hover:text-blue-600">Início</a>
+                <a href="#products" class="nav-link font-medium text-gray-700 hover:text-blue-600">Produtos</a>
+                <a href="#custom" class="nav-link font-medium text-gray-700 hover:text-blue-600">Fabricação</a>
+                <a href="#about" class="nav-link font-medium text-gray-700 hover:text-blue-600">Sobre</a>
+                <a href="#contact" class="nav-link font-medium text-gray-700 hover:text-blue-600">Contato</a>
+            </nav>
+            
+            <div class="flex items-center space-x-4">
+                <button class="md:hidden text-gray-700 focus:outline-none" id="mobile-menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <button class="hidden md:block bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                    Orçamento <i class="fas fa-paper-plane ml-1"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div class="md:hidden hidden bg-white shadow-lg" id="mobile-menu">
+            <div class="px-4 py-2 flex flex-col space-y-3">
+                <a href="#home" class="block px-3 py-2 font-medium text-gray-700 hover:bg-blue-50 rounded">Início</a>
+                <a href="#products" class="block px-3 py-2 font-medium text-gray-700 hover:bg-blue-50 rounded">Produtos</a>
+                <a href="#custom" class="block px-3 py-2 font-medium text-gray-700 hover:bg-blue-50 rounded">Fabricação</a>
+                <a href="#about" class="block px-3 py-2 font-medium text-gray-700 hover:bg-blue-50 rounded">Sobre</a>
+                <a href="#contact" class="block px-3 py-2 font-medium text-gray-700 hover:bg-blue-50 rounded">Contato</a>
+                <button class="w-full bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                    Orçamento <i class="fas fa-paper-plane ml-1"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient relative text-white pt-20 pb-32">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Cilindros Pneumáticos <span class="text-blue-200">Padrão ISO</span></h1>
+                <p class="text-xl mb-8 text-blue-100">Soluções industriais de alta qualidade com fabricação própria e entrega rápida em todo o país.</p>
+                <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                    <button class="bg-white text-blue-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-bold transition duration-300">
+                        Catálogo Completo <i class="fas fa-download ml-2"></i>
+                    </button>
+                    <button class="border-2 border-white text-white hover:bg-white hover:text-blue-600 px-6 py-3 rounded-lg font-bold transition duration-300">
+                        Fale Conosco <i class="fas fa-phone-alt ml-2"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center">
+                <img src="https://via.placeholder.com/500x350/1e40af/ffffff?text=Cilindros+Pneumáticos" alt="Cilindros Pneumáticos" class="rounded-lg shadow-2xl border-4 border-blue-300">
+            </div>
+        </div>
+        
+        <div class="custom-shape-divider-bottom-1689952601">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-gray-50 py-16">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Por que escolher nossos cilindros?</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Produtos de alta qualidade que atendem aos mais rigorosos padrões internacionais</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-certificate text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Certificação ISO</h3>
+                    <p class="text-gray-600">Todos os nossos cilindros são fabricados conforme as normas ISO 6431, ISO 6432 e ISO 21287.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-tools text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Fabricação Própria</h3>
+                    <p class="text-gray-600">Controle total do processo produtivo garantindo qualidade e prazos de entrega.</p>
+                </div>
+                
+                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition duration-300 text-center">
+                    <div class="bg-blue-100 w-16 h-16 mx-auto rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-truck text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Entrega Rápida</h3>
+                    <p class="text-gray-600">Estoque permanente dos modelos mais comuns e logística eficiente para todo o Brasil.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Nossos Produtos</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Cilindros pneumáticos padrão ISO para diversas aplicações industriais</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <div class="relative h-48 bg-gray-200 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300/e5e7eb/1e40af?text=Cilindro+ISO+6431" alt="Cilindro ISO 6431" class="w-full h-full object-cover">
+                        <div class="absolute top-4 right-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-bold">Mais Vendido</div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Cilindro ISO 6431</h3>
+                        <p class="text-gray-600 mb-4">Cilindro pneumático compacto com curso padrão, diâmetros de 32mm a 100mm.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-600 font-bold text-lg">A partir de R$ 189,90</span>
+                            <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                                Detalhes <i class="fas fa-chevron-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <div class="relative h-48 bg-gray-200 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300/e5e7eb/1e40af?text=Cilindro+ISO+6432" alt="Cilindro ISO 6432" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Cilindro ISO 6432</h3>
+                        <p class="text-gray-600 mb-4">Cilindro pneumático miniaturizado, diâmetros de 8mm a 25mm, ideal para automação.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-600 font-bold text-lg">A partir de R$ 129,90</span>
+                            <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                                Detalhes <i class="fas fa-chevron-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card bg-white rounded-xl shadow-md overflow-hidden transition duration-300">
+                    <div class="relative h-48 bg-gray-200 flex items-center justify-center">
+                        <img src="https://via.placeholder.com/400x300/e5e7eb/1e40af?text=Cilindro+ISO+21287" alt="Cilindro ISO 21287" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Cilindro ISO 21287</h3>
+                        <p class="text-gray-600 mb-4">Cilindro pneumático compacto com curso curto, alta performance e durabilidade.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-blue-600 font-bold text-lg">A partir de R$ 219,90</span>
+                            <button class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                                Detalhes <i class="fas fa-chevron-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-bold transition duration-300">
+                    Ver Todos os Produtos <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Manufacturing Section -->
+    <section id="custom" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Fabricação Sob Medida</h2>
+                    <p class="text-lg text-gray-600 mb-6">Além dos modelos padrão, oferecemos serviços de fabricação personalizada de cilindros pneumáticos para atender necessidades específicas de sua aplicação.</p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Cursos Especiais</h4>
+                                <p class="text-gray-600">Fabricamos cilindros com cursos fora do padrão conforme sua necessidade.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Materiais Especiais</h4>
+                                <p class="text-gray-600">Aço inox, alumínio anodizado ou outros materiais para ambientes corrosivos.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-full mr-4">
+                                <i class="fas fa-check-circle text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800">Acessórios Personalizados</h4>
+                                <p class="text-gray-600">Fixações, amortecedores, sensores e outros acessórios conforme sua aplicação.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="mt-8 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300">
+                        Solicitar Orçamento <i class="fas fa-file-signature ml-2"></i>
+                    </button>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-white p-6 rounded-xl shadow-lg">
+                        <img src="https://via.placeholder.com/600x400/e5e7eb/1e40af?text=Fabricação+Personalizada" alt="Fabricação Personalizada" class="rounded-lg mb-4 w-full">
+                        <div class="text-center">
+                            <h3 class="text-xl font-bold mb-2">Tem uma necessidade específica?</h3>
+                            <p class="text-gray-600 mb-4">Nossa equipe de engenharia pode desenvolver uma solução sob medida para sua aplicação.</p>
+                            <button class="bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-lg font-medium transition duration-300">
+                                Fale com nossos engenheiros <i class="fas fa-headset ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Sobre a Pneumax Solutions</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Mais de 15 anos fornecendo soluções pneumáticas para a indústria brasileira</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row items-center">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <img src="https://via.placeholder.com/600x400/e5e7eb/1e40af?text=Nossa+Fábrica" alt="Nossa Fábrica" class="rounded-lg shadow-lg w-full">
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Nossa História</h3>
+                    <p class="text-gray-600 mb-4">Fundada em 2008, a Pneumax Solutions começou como uma pequena oficina especializada em manutenção de cilindros pneumáticos. Com o tempo, identificamos a necessidade de produtos de qualidade no mercado brasileiro e passamos a fabricar nossos próprios cilindros.</p>
+                    <p class="text-gray-600 mb-6">Hoje, somos referência nacional na fabricação de cilindros pneumáticos padrão ISO, atendendo indústrias de diversos segmentos em todo o país.</p>
+                    
+                    <div class="grid grid-cols-2 gap-4 mb-8">
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <div class="text-blue-600 text-3xl font-bold mb-2">15+</div>
+                            <div class="text-gray-700">Anos de Experiência</div>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <div class="text-blue-600 text-3xl font-bold mb-2">500+</div>
+                            <div class="text-gray-700">Clientes Atendidos</div>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <div class="text-blue-600 text-3xl font-bold mb-2">10K+</div>
+                            <div class="text-gray-700">Cilindros Fabricados</div>
+                        </div>
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <div class="text-blue-600 text-3xl font-bold mb-2">100%</div>
+                            <div class="text-gray-700">Satisfação do Cliente</div>
+                        </div>
+                    </div>
+                    
+                    <button class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-bold transition duration-300">
+                        Conheça Nossa Fábrica <i class="fas fa-industry ml-2"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Perguntas Frequentes</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Tire suas dúvidas sobre nossos produtos e serviços</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item 1 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-medium text-gray-800 hover:text-blue-600 focus:outline-none">
+                        <span>Quais são os prazos de entrega para cilindros padrão?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content mt-2 text-gray-600">
+                        <p>Para os modelos padrão em estoque, o prazo de entrega é de até 3 dias úteis para a grande São Paulo e até 7 dias úteis para outras regiões do Brasil. Caso o produto precise ser fabricado, o prazo pode variar de 10 a 15 dias úteis.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-medium text-gray-800 hover:text-blue-600 focus:outline-none">
+                        <span>Vocês oferecem garantia para os cilindros?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content mt-2 text-gray-600">
+                        <p>Sim, todos os nossos cilindros pneumáticos possuem garantia de 12 meses contra defeitos de fabricação. A garantia cobre a substituição do produto ou reparo, conforme análise técnica de nossa equipe.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-medium text-gray-800 hover:text-blue-600 focus:outline-none">
+                        <span>Como faço para solicitar um orçamento?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content mt-2 text-gray-600">
+                        <p>Você pode solicitar um orçamento através do formulário em nosso site, por e-mail (vendas@pneumax.com.br) ou pelo telefone (11) 1234-5678. Para agilizar, tenha em mãos as especificações técnicas necessárias como diâmetro, curso, tipo de fixação e quantidade.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-medium text-gray-800 hover:text-blue-600 focus:outline-none">
+                        <span>Vocês realizam manutenção em cilindros de outras marcas?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content mt-2 text-gray-600">
+                        <p>Sim, nossa equipe técnica está capacitada para realizar manutenção, reparo e reconstrução de cilindros pneumáticos de diversas marcas. Entre em contato para avaliarmos o estado do seu equipamento.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="mb-4 border-b border-gray-200 pb-4">
+                    <button class="faq-toggle flex justify-between items-center w-full text-left font-medium text-gray-800 hover:text-blue-600 focus:outline-none">
+                        <span>Quais formas de pagamento vocês aceitam?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="accordion-content mt-2 text-gray-600">
+                        <p>Aceitamos todas as principais formas de pagamento: boleto bancário, cartões de crédito (em até 12x), transferência bancária e PIX. Para clientes cadastrados, oferecemos condições especiais de pagamento.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-gray-800 hover:bg-gray-900 text-white px-6 py-3 rounded-lg font-bold transition duration-300">
+                    Ver Todas as Perguntas <i class="fas fa-question-circle ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">O que nossos clientes dizem</h2>
+                <p class="text-xl text-blue-100 max-w-3xl mx-auto">Depoimentos de empresas que confiam em nossos produtos</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Há 5 anos utilizamos os cilindros da Pneumax em nossas máquinas e nunca tivemos problemas. A qualidade é excelente e o atendimento sempre muito ágil."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mr-4">AM</div>
+                        <div>
+                            <h4 class="font-bold">André Mendes</h4>
+                            <p class="text-gray-500 text-sm">Engenheiro de Manutenção - Indústria ACME</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"Quando precisamos de cilindros especiais para nossa nova linha de produção, a Pneumax desenvolveu uma solução perfeita que atendeu todas nossas necessidades técnicas."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mr-4">CS</div>
+                        <div>
+                            <h4 class="font-bold">Carla Silva</h4>
+                            <p class="text-gray-500 text-sm">Gerente de Produção - Metalúrgica Beta</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white text-gray-800 p-8 rounded-xl shadow-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-2xl mr-2">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-600 mb-6">"A relação custo-benefício dos cilindros da Pneumax é imbatível. Além do preço competitivo, a qualidade é superior a muitos produtos importados que já utilizamos."</p>
+                    <div class="flex items-center">
+                        <div class="bg-blue-100 text-blue-600 w-12 h-12 rounded-full flex items-center justify-center font-bold text-xl mr-4">RF</div>
+                        <div>
+                            <h4 class="font-bold">Ricardo Fonseca</h4>
+                            <p class="text-gray-500 text-sm">Diretor Técnico - Automação Gamma</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Entre em Contato</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Estamos à disposição para tirar dúvidas e fornecer orçamentos</p>
+            </div>
+            
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-10 lg:mb-0 lg:pr-10">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Informações de Contato</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-map-marker-alt text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Endereço</h4>
+                                    <p class="text-gray-600">Rua Industrial, 1234 - Bairro Industrial<br>São Paulo - SP<br>CEP: 12345-678</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone-alt text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Telefones</h4>
+                                    <p class="text-gray-600">(11) 1234-5678<br>(11) 98765-4321 (WhatsApp)</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">E-mail</h4>
+                                    <p class="text-gray-600">vendas@pneumax.com.br<br>suporte@pneumax.com.br</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-clock text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Horário de Atendimento</h4>
+                                    <p class="text-gray-600">Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-bold text-gray-800 mb-4">Siga-nos nas redes sociais</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="bg-blue-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-700 transition duration-300">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="bg-blue-400 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-500 transition duration-300">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="bg-pink-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-pink-700 transition duration-300">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-blue-800 transition duration-300">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="bg-gray-800 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-gray-900 transition duration-300">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lg:w-1/2">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Envie uma Mensagem</h3>
+                        <form id="contact-form">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="name" class="block text-gray-700 font-medium mb-2">Nome Completo</label>
+                                    <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                                </div>
+                                <div>
+                                    <label for="company" class="block text-gray-700 font-medium mb-2">Empresa</label>
+                                    <input type="text" id="company" name="company" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+                                </div>
+                            </div>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                                <div>
+                                    <label for="email" class="block text-gray-700 font-medium mb-2">E-mail</label>
+                                    <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                                </div>
+                                <div>
+                                    <label for="phone" class="block text-gray-700 font-medium mb-2">Telefone</label>
+                                    <input type="tel" id="phone" name="phone" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="subject" class="block text-gray-700 font-medium mb-2">Assunto</label>
+                                <select id="subject" name="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
+                                    <option value="" disabled selected>Selecione um assunto</option>
+                                    <option value="orcamento">Solicitação de Orçamento</option>
+                                    <option value="duvida">Dúvida sobre Produtos</option>
+                                    <option value="suporte">Suporte Técnico</option>
+                                    <option value="outro">Outro</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2">Mensagem</label>
+                                <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" required></textarea>
+                            </div>
+                            
+                            <div class="flex items-center mb-6">
+                                <input type="checkbox" id="newsletter" name="newsletter" class="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500">
+                                <label for="newsletter" class="ml-2 text-gray-700">Desejo receber novidades e promoções por e-mail</label>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold transition duration-300">
+                                Enviar Mensagem <i class="fas fa-paper-plane ml-2"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 bg-gray-800 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-6">Receba Nossas Novidades</h2>
+            <p class="text-xl text-gray-300 max-w-2xl mx-auto mb-8">Cadastre-se para receber lançamentos, promoções e conteúdos exclusivos sobre automação pneumática.</p>
+            
+            <form class="max-w-md mx-auto flex">
+                <input type="email" placeholder="Seu melhor e-mail" class="flex-grow px-4 py-3 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800">
+                <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-r-lg font-bold transition duration-300">
+                    Cadastrar <i class="fas fa-envelope ml-2"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="h-96 w-full">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0754267452906!2d-46.65342658502232!3d-23.565734367638685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1689952826923!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white pt-16 pb-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                <!-- Column 1 -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fas fa-compress-arrows-alt text-blue-400 text-2xl mr-3"></i>
+                        <h3 class="text-xl font-bold">Pneumax<span class="text-blue-400">Solutions</span></h3>
+                    </div>
+                    <p class="text-gray-400 mb-4">Especialistas em cilindros pneumáticos padrão ISO com fabricação própria e entrega rápida em todo o Brasil.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition duration-300">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Column 2 -->
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Produtos</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cilindros ISO 6431</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cilindros ISO 6432</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cilindros ISO 21287</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Cilindros Especiais</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Acessórios</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 3 -->
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Links Úteis</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Catálogo Completo</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Manual de Instalação</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Guia de Manutenção</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Normas Técnicas</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition duration-300">Blog Técnico</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Column 4 -->
+                <div>
+                    <h4 class="text-lg font-bold mb-4">Contato</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-map-marker-alt text-blue-400 mt-1 mr-3"></i>
+                            <span class="text-gray-400">Rua Industrial, 1234 - São Paulo/SP</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-phone-alt text-blue-400 mr-3"></i>
+                            <span class="text-gray-400">(11) 1234-5678</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fab fa-whatsapp text-blue-400 mr-3"></i>
+                            <span class="text-gray-400">(11) 98765-4321</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope text-blue-400 mr-3"></i>
+                            <span class="text-gray-400">contato@pneumax.com.br</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 mb-4 md:mb-0">© 2023 Pneumax Solutions. Todos os direitos reservados.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-white transition duration-300">Termos de Uso</a>
+                    <a href="#" class="text-gray-500 hover:text-white transition duration-300">Política de Privacidade</a>
+                    <a href="#" class="text-gray-500 hover:text-white transition duration-300">FAQ</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <a href="https://wa.me/5511987654321" class="bg-green-500 hover:bg-green-600 text-white w-16 h-16 rounded-full flex items-center justify-center shadow-lg transition duration-300 transform hover:scale-110">
+            <i class="fab fa-whatsapp text-2xl"></i>
+        </a>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // FAQ accordion
+        const faqToggles = document.querySelectorAll('.faq-toggle');
+        faqToggles.forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                const icon = this.querySelector('i');
+                const content = this.nextElementSibling;
+                
+                icon.classList.toggle('transform');
+                icon.classList.toggle('rotate-180');
+                
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + 'px';
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Close mobile menu if open
+                    const mobileMenu = document.getElementById('mobile-menu');
+                    if (!mobileMenu.classList.contains('hidden')) {
+                        mobileMenu.classList.add('hidden');
+                    }
+                }
+            });
+        });
+
+        // Form submission
+        document.getElementById('contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Here you would typically send the form data to a server
+            // For this example, we'll just show an alert
+            alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
